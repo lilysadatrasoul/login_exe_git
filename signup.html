@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign up</title>
+    <link href="style.css" rel="stylesheet" />
+    <script src="index.js"></script>
+</head>
+<body>
+    <div class="container">
+        <form action="http://roshdana.com" method="post">
+          <fieldset>
+            <legend>فرم ثبت نام</legend>
+            <table class="tab_cover">
+                <tr>
+                    <th><label>نام:</label></th>
+                    <td>
+                      <input
+                        type="text"
+                        placeholder="نام خود را وارد کنید"
+                        name="first_name"
+                      />
+                    </td>
+                </tr>
+                <tr>
+                    <th><label>نام خانوادگی:*</label></th>
+                    <td>
+                      <input
+                        type="text"
+                        placeholder="نام خانوادگی خود را وارد کنید"
+                        name="last_name"
+                        required
+                      />
+                    </td>
+                  </tr>
+              <tr>
+                <th><label>آدرس ایمیل:* </label></th>
+                <td>
+                  <input
+                    type="email"
+                    placeholder="email here"
+                    name="email"
+                    required
+                  />
+                </td>
+              </tr>
+              <tr>
+                <th><label>رمز عبور:*</label></th>
+                <td><input type="password" value="pass here" required /></td>
+              </tr>
+              <tr>
+                <th><label> رمز عبور مجدد:*</label></th>
+                <td><input type="password" value="pass here" required /></td>
+              </tr>
+              <tr></tr>
+              <tr></tr>
+              <tr>
+                <td colspan="2">
+                  <button type="submit" name="btn_send"> ثبت نام </button>
+                </td>
+                
+              </tr>
+            </table>
+            
+            <br><br>
+  
+            *تمام موارد ستاره دار اجباریست
+          </fieldset>
+        </form>
+      </div>
+    
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>login</title>
+    <link href="style.css" rel="stylesheet" />
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <form action="http://roshdana.com" method="post">
+        <fieldset>
+          <legend>فرم ورود</legend>
+          <table>
+            <tr>
+                <th><label> نام کاربری:</label></th>
+                <td>
+                  <input
+                    type="text"
+                    placeholder="نام کاربری خود را وارد کنید"
+                    name="first_name"
+                  />
+                </td>
+            </tr>
+            <tr>
+              <th><label>آدرس ایمیل:* </label></th>
+              <td>
+                <input
+                  type="email"
+                  placeholder="email here"
+                  name="email"
+                  required
+                />
+              </td>
+            </tr>
+            <tr>
+              <th><label>رمز عبور:*</label></th>
+              <td><input type="password" value="pass here" required /></td>
+            </tr>
+            <tr></tr>
+            <tr></tr>
+            <tr>
+              <td colspan="2">
+                <button type="submit" name="btn_send">ورود</button>
+              </td>
+              <td><button type="reset" name="btn_clear"> <a href="http://127.0.0.1:5500/signup.html">فرم ثبت نام</a></button></td>
+            </tr>
+          </table>
+          
+          <br><br>
+
+          *تمام موارد ستاره دار اجباریست
+        </fieldset>
+      </form>
+    </div>
+  </body>
+</html>
