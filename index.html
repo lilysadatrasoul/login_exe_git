@@ -1,39 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>my page</title>
-    <link href="style.css" rel="stylesheet">
-    <script src="index.js"></script> 
-</head>
-<body>
+    <link href="style.css" rel="stylesheet" />
+    <script src="index.js"></script>
+  </head>
+  <body>
     <div class="container">
       <form action="http://roshdana.com" method="post">
         <fieldset>
-            <legend>فرم ثبت نام</legend>
-            <table>
-                <tr>
-                    <th><lable>نام:</lable></th>
-                    <td><input type="text" placeholder="نام خود را وارد کنید" name="firstname"></td>                    
-                </tr>
-                <tr>
-                    <th><lable>نام خانوادگی:*</lable></th>
-                    <td><input type="text" placeholder="نام خانوادگی خود را وارد کنید" name="lasttname"
-                        required></td>
-            
-                </tr>
-            </table>
+          <legend>فرم ثبت نام</legend>
+          <table>
+            <tr>
+              <th><label>نام:</label></th>
+              <td>
+                <input
+                  type="text"
+                  placeholder="نام خود را وارد کنید"
+                  name="first_name"
+                />
+              </td>
+            </tr>
+            <tr>
+              <th><label>نام خانوادگی:*</label></th>
+              <td>
+                <input
+                  type="text"
+                  placeholder="نام خانوادگی خود را وارد کنید"
+                  name="last_name"
+                  required
+                />
+              </td>
+            </tr>
+            <tr>
+              <th><label>آدرس ایمیل:* </label></th>
+              <td>
+                <input
+                  type="email"
+                  placeholder="email here"
+                  name="email"
+                  required
+                />
+              </td>
+            </tr>
+            <tr>
+              <th><label>رمز عبور:*</label></th>
+              <td><input type="password" value="pass here" required /></td>
+            </tr>
+          </table>
         </fieldset>
-
-
-
-      </form> 
+      </form>
     </div>
-
-
-
-
-</body>
+  </body>
 </html>
